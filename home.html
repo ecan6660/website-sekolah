@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>estila</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> estila </a>
+
+      <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="home.html">beranda</a>
+        <a href="about.html">tentang</a>
+        <a href="courses.html">ekskul</a>
+        <a href="contact.html">kontak</a>
+      </nav>
+
+      <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+
+    <!-- account form section starts  -->
+
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+
+      <div class="buttons">
+        <span class="btn active login-btn">login</span>
+        <span class="btn register-btn">daftar</span>
+      </div>
+
+      <form class="login-form active" action="">
+        <h3>login now</h3>
+        <input type="email" placeholder="masukan email" class="box" />
+        <input type="password" placeholder="masukan password" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+          <a href="#">lupa password?</a>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+
+      <form class="register-form" action="">
+        <h3>register now</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <input type="password" placeholder="confirm your password" class="box" />
+        <input type="submit" value="register now" class="btn" />
+      </form>
+    </div>
+
+    <!-- account form section ends -->
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section class="swiper-slide slide" style="background: url(images/gerbang1.png) no-repeat">
+            <div class="content">
+              <h3>SMP NEGERI 3 LARANGAN</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit labore dolore unde, quidem corrupti?</p>
+              <a href="#" class="btn">lebih lanjut</a>
+            </div>
+          </section>
+
+          <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat">
+            <div class="content">
+              <h3>ESTILA BISA!!!!!</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit labore dolore unde, quidem corrupti?</p>
+              <a href="#" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat">
+            <div class="content">
+              <h3>the best courses you will find find here!</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit labore dolore unde, quidem corrupti?</p>
+              <a href="#" class="btn">get started</a>
+            </div>
+          </section>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- subjects section starts  -->
+
+    <section class="subjects">
+      <h1 class="heading">mata pelajaran</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/prakarya 1.jpeg" alt="" />
+          <h3>prakarya</h3>
+          <p>Jovinda Tandan Basyar,S.Pd.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/matematika.jpg" alt="" />
+          <h3>IPS</h3>
+          <p>Abdul Khavid,S.Pd.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/pjok.jpeg" alt="" />
+          <h3>pjok</h3>
+          <p>Kurniawan,S.Pd.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/TIK 2.jpg" alt="" />
+          <h3>TIK</h3>
+          <p>Muhson Nawawi,S.Kom</p>
+        </div>
+
+        <div class="box">
+          <img src="images/ipa.jpg" alt="" />
+          <h3>ipa</h3>
+          <p>Nurpatoyah,S.Pd.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/b.indo.jpg" alt="" />
+          <h3>B.indonesia</h3>
+          <p>Korib Farhan,M.Pd.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- subjects section ends -->
+
+    <!-- home courses slider section starts  -->
+
+    <section class="home-courses">
+      <h1 class="heading">ekskul favorit </h1>
+
+      <div class="swiper home-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/ekskul TIK .jpg" alt="" />
+              <h3>ekskul TIK</h3>
+            </div>
+            <div class="content">
+              <h3>ekskul TIK</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/pjok 1.jpeg" alt="" />
+              <h3>ekskul paskibra</h3>
+            </div>
+            <div class="content">
+              <h3>ekskul paskibra</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/ekskul pmi.jpg" alt="" />
+              <h3>ekskul Pramuka</h3>
+            </div>
+            <div class="content">
+              <h3>ekskul PMI</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <!-- <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-4.png" alt="" />
+              <h3>web development</h3>
+            </div>
+            <div class="content">
+              <h3>web development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-5.png" alt="" />
+              <h3>web development</h3>
+            </div>
+            <div class="content">
+              <h3>web development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/course-1-6.png" alt="" />
+              <h3>web development</h3>
+            </div>
+            <div class="content">
+              <h3>web development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- home courses slider section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-lightbulb"></i> estila</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptatem.</p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="home.html" class="link">Beranda</a>
+          <a href="about.html" class="link">Tentang Kami</a>
+          <a href="courses.html" class="link">Ekskul</a>
+          <a href="contact.html" class="link">Kontak</a>
+        </div>
+
+        <div class="box">
+          <h3>useful links</h3>
+          <a href="#" class="link">help center</a>
+          <a href="#" class="link">ask questions</a>
+          <a href="#" class="link">send feedback</a>
+          <a href="#" class="link">private policy</a>
+          <a href="#" class="link">terms of use</a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest upadates</p>
+          <form action="">
+            <input type="email" name="" placeholder="enter your email" id="" class="email" />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+
+      <div class="credit">created by <span>@Ki_Kurniawan</span> | SMP Negeri 3 Larangan</div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
